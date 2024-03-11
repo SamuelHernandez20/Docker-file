@@ -43,7 +43,8 @@ CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 ```
 # Contenido del Workflow (docker-publish.yml)
 
-Este contenido es diseñado para realizar la publicación de la imagen en DockerHub, automatizando su proceso de construcción en dicho sitio, así como la automatización de la publicación de la imagen:
+Este contenido es diseñado para realizar la publicación de la imagen en **DockerHub**, automatizando su proceso de construcción en dicho sitio, así como la automatización de la publicación de la imagen en **DockerHub**
+la cual podrá ser descargada, y nos permitirá acceder al navegador desde el puerto que se le especifique:
 
 ```
 name: Publicar en dockerhub samuel3101
