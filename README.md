@@ -41,3 +41,8 @@ Si no se pone **entrypoint**, Docker utilizará la entrada predeterminada defini
 ```
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 ```
+# Contenido del Workflow
+
+Este contenido es diseñado para realizar la publicación de la imagen en DockerHub, automatizando su proceso de construcción en dicho sitio, así como la automatización de la publicación de la imagen:
+
+
